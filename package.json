@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "develop": "nodemon server.js",
-    "start:prod": "SET NODE_ENV=production&&nodemon server.js"
+    "start:prod": "SET NODE_ENV=production&&nodemon server.js",
+    "import:dev-data": " node dev-data/data/import-dev-data.js --import",
+    "delete:dev-data": " node dev-data/data/import-dev-data.js --delete"
   },
   "author": "MNR",
   "license": "ISC",
